@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    background: white;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 90px;
+    background: rgb(76, 124, 236);
+}
+
+header h1 {
+    color: rgb(224, 228, 232);
+}
+
+.data_analysis {
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    display: block;
+}
+
+.data_analysis h2 {
+    text-align: left;
+    color: rgb(68, 68, 231);
+    font-size: 30px;
+
+}
+
+.data_analysis h3 {
+    font-size: 25px;
+    color: black;
+}
+
+.data_analysis p {
+    font-size: large;
+    color: gray;
+}
+
+
+.data_analysis button {
+    display: flex;
+    align-items: center;
+    padding: 10px 8px;
+    color: white;
+    background: rgb(64, 105, 228);
+    box-shadow: rgb(59, 86, 196);
+    border-radius: 13px;
+}
