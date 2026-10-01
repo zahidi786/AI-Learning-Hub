@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='Ai_model.css')}}">
+    <title>project</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Learn AI</h1>
+    </header>
+    <section>
+        <div class="data_analysis"><br>
+            <h2>Pandas library</h2><br>
+
+            <h3># import pandas as pd</h3><br>
+
+            <p> Pandas is a Python library used for data analysis and mainipulation, it provides powerfull structure
+                like
+                DataFrame and Series to work with data, it is commonly used for cleaning, filtering , analyzing , and
+                processing datadets.</p><br>
+            <button onclick="pandas()">start learning</button>
+
+            <script> function pandas() {
+                    window.location.href = '/pandas';
+                }
+            </script>
+
+        </div><br>
+
+
+        <div class="data_analysis">
+            <h2>Numpy library</h2>
+            <h3> # import numpy as np</h3>
+            <p>Numpy is a python library used for numerical and scientific computing, it provides powerful arrays and
+                mathematical functions for working with numbers, it is withly used in data science , machine learning ,
+                statictics, and engineering.</p><br>
+            <button onclick="numpy()">start learning</button>
+
+            <script>
+                function numpy() {
+                    window.location.href = "/numpy";
+                }
+            </script>
+        </div><br>
+
+        <div class="data_analysis">
+            <h2>Matplotlib library</h2>
+            <h3># import matplotlib.pyplot as plt</h3>
+            <p>Matplotlib is a Python library used for data visualition and plotting graphs, it can create line, bar,
+                pie, and scatter plots, it is widely used in data analysis , data science and machine learning.</p>
+            <button onclick="matplot()"> start learning</button>
+
+            <script> 
+                function matplot(){
+                    window.location.href = "/matplot";
+                }
+            </script>
+        </div>
+    </section>
+
+    <section>
+
+
+    </section>
+
+</body>
+
+</html>

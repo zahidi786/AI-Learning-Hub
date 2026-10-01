@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='python.css') }}">
+
+    <title>Python</title>
+</head>
+
+<body>
+    <section class="python-hero">
+        <h1>Learn python</h1>
+        <p> Start learnning Python form begginner to Advanced.</p>
+    </section>
+
+    <section class="python-video">
+        <h2>Python for begginner</h2>
+        <div class="video-box">
+            <iframe src="{{video_url}}" title="Python course" allowfullscreen>
+
+            </iframe>
+
+        </div>
+    </section>
+
+
+    <section class="python-slides">
+        <h2>Python course slides</h2>
+
+        <div class="slides-box">
+            <iframe src="{{url_for('static',filename='slides.pdf') }}">
+
+            </iframe>
+        </div>
+    </section>
+
+</body>
+
+</html>

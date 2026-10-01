@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AI learning site</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='Ai.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- part header -->
+    <header>
+        <div class="Logo">
+            <h2> AI learning hub</h2>
+        </div>
+        <nav>
+
+            <a href="#">Home</a>
+            <a href="{{ url_for('python')}}">Python</a>
+            <a href="{{ url_for('Ai')}}">Ai</a>
+            <a href="{{ url_for('login')}}">Login</a>
+
+        </nav>
+
+
+    </header>
+
+    <button class="menu-btn" onclick="openmenu()">☰</button>
+    <div id="side-Menu" class="side-menu">
+        <button class="close-btn" onclick="closemenu()">x</button>
+
+        <h2>AI learning hub</h2>
+
+        <a href="#" onclick="showSettings()">⚙ Setting</a>
+        <a href="#" onclick="showabout()">ℹ About website</a>
+    </div>
+
+
+    <script src="{{url_for('static', filename='scripts.js')}}"></script>
+
+
+    <!-- part section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Learn programing & Artificial Intelligence </h1>
+            <p>
+                Start your journey to become a professional developer.
+            </p>
+
+            <h2>About Me -- Habib Zahidi</h2>
+
+            <h2>I'm Habib Zahidi</h2>
+
+            <p>Iam a programming student and a technology enthusiast who is building my skills step.My main interests
+                are
+                <strong>Web developments, C++, Python , and Artificial Intelligence</strong>.
+            </p>
+
+            <p>I started this journey because
+                i want to understand how technology works and, more importantly, learn how to <strong> build things with
+                    my
+                    own hands and code</strong>.</p>
+            <p> This website is part of my learning journey.I'm designing it, improve it,
+                and using it to practice what i learn about programming and web development. My goal is simple:
+                <strong>keep
+                    learning, keep building, and become and professional developer.</strong> Iknow becoming a great
+                programmer takes time, but I'm ready to learn one step at a time. <strong>This is my journey. This is my
+                    code. And this is just the beginning</strong>
+            </p>
+
+
+
+        </div>
+
+
+
+
+        <div class="hero-image">
+            <img src="\static\2837082b9815d1ad5ca7cfcd13fd583e4a154e4ada6545b64e40275ddd5b5562.png">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-contact">
+            <h3> AI learning hub</h3>
+            <p>learning AI and programming</p>
+            <i class="fa-solid fa-envelope">
+                <span>habibzahidi2009@gmail.com</span><br><br>
+                <i class="fa-solid fa-phone">
+                    <span>+93766043060</span>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
